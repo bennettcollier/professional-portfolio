@@ -20,7 +20,6 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
@@ -65,7 +64,7 @@ header nav ul li a:hover {
 
 /* homepage hero */
 .hero {
-    background-image: url("./images/woodsbanner.jpg");
+    background-image: url("./images/woodsbanner.JPG");
     background-size: cover;
     background-position: 80%;
     display: flex;
