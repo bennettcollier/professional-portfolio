@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #824F54;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: seashell;
+}
+
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #bc8f8f;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 46px;
+    color: seashell;
+    margin: 0;
+    text-shadow: #824F54;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: seashell;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: seashell;
+    color: #D38978;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/* homepage hero */
+.hero {
+    background-image: url("./images/woodsbanner.jpg");
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+}
+
+.hero-cta {
+    margin: 13%;
+    color: #824F54;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.aboutme-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 2%;
+    margin-top: 5%;
+}
+
+.aboutme-grid-container {
+    width: 98%;
+    display: grid;
+    grid-template-columns: 220px 2fr 1.5fr;
+    grid-template-rows: 1fr;
+    font-size: 1rem;
+    color: #824F54;
+    column-gap: 20px;
+}
+
+.aboutme-grid-item {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme-grid-container img {
+    max-width: 100%;
+    border: #824F54 3px solid;
+    border-radius: 8px;
+}
+
+.box1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-right: rosybrown 2px solid;
+}
+
+.box2 {
+    line-height: 1.5;
+}
+
+.work-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 2%;
+    margin-top: 5%;
+    align-content: center;
+}
+
+.work-grid-container {
+    width: 98%;
+    display: grid;
+    grid-template-columns: 220px 1.1fr 1.1fr 1.1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 1rem;
+    color: #824F54;
+    column-gap: 20px;
+    position: relative;
+}
+
+.workimg1 {
+    background-image: url("./images/work-run-buddy.jpg");
+    border: rosybrown 2px solid;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.workimg2 {
+    background-image: url("./images/work-moon.jpg");
+    max-width: 80%;
+    border: rosybrown 2px solid;
+    border-radius: 8px;
+    background-size: cover;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.workimg3 {
+    background-image: url("./images/work-beach.jpg");
+    max-width: 80%;
+    border: rosybrown 2px solid;
+    border-radius: 8px;
+    background-size: cover;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.workimg4 {
+    background-image: url("./images/work-lake.JPG");
+    max-width: 80%;
+    border: rosybrown 2px solid;
+    border-radius: 8px;
+    background-size: cover;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.workimg5 {
+    background-image: url("./images/work-desert.JPG");
+    max-width: 80%;
+    border: rosybrown 2px solid;
+    border-radius: 8px;
+    background-size: cover;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.work-grid-item {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    min-height: 150px;
+    background-size: cover;
+    display: flex;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.box4 {
+    grid-row: 1 / -1;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-right: rosybrown 2px solid;
+}
+
+.work1 {
+    grid-column: 2 / -2;
+    grid-row: 2 / -2;
+    margin-left: 15%;
+}
+
+.work-grid-item:hover {
+    opacity: 0.7;
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    left: 19px;
+    font-size: 13px;
+    visibility: hidden;
+    background-color: rosybrown;
+}
+
+.work-grid-item:hover .text{
+    visibility: visible;
+}
+
+.contactme-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 2%;
+    margin-top: 5%;
+}
+
+.contactme-grid-container {
+    width: 98%;
+    display: grid;
+    grid-template-columns: 220px 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-size: 1.2rem;
+    color: #824F54;
+    column-gap: 20px;
+}
+
+.contactme-grid-item {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactlink {
+    text-decoration: none;
+    color: #824F54;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .aboutme-grid-container {
+        grid-template-columns: 120px 2.5fr 1.2fr;
+        font-size: 2vw;
+    }
+
+    .work-grid-container {
+        grid-template-columns: 120px 1.1fr 1.1fr 1.1fr;
+    }
+
+    .contactme-grid-container {
+        grid-template-columns: 120px 1fr 1fr 1fr 1fr;
+        font-size: 2vw;
+    }
+
+    .workimg1 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .workimg2 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .workimg2 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .workimg4 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .workimg5 {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
