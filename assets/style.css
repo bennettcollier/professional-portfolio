@@ -237,10 +237,12 @@ header nav ul li a:hover {
     font-size: 13px;
     visibility: hidden;
     background-color: rosybrown;
+    text-decoration: none;
 }
 
 .work-grid-item:hover .text{
     visibility: visible;
+    text-decoration: none;
 }
 
 .contactme-grid-wrapper {
