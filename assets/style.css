@@ -148,10 +148,15 @@ header nav ul li a:hover {
     border: rosybrown 2px solid;
     border-radius: 8px;
     background-size: cover;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10%;
+    width: 80%;
 }
 
 .workimg2 {
-    background-image: url("./images/work-moon.JPG");
+    background-image: url("./images/trein_screenshot.JPG");
     max-width: 80%;
     border: rosybrown 2px solid;
     border-radius: 8px;
@@ -210,6 +215,10 @@ header nav ul li a:hover {
     padding: 15px;
     position: relative;
     overflow: hidden;
+}
+
+a {
+    color: #824F54;
 }
 
 .box4 {
